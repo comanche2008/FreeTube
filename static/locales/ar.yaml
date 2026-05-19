@@ -869,16 +869,16 @@ Playlist:
   Playlist: قائمة التشغيل
   Sort By:
     DateAddedNewest: تاريخ الإضافة (الأحدث)
-    DateAddedOldest: الأقدم إضافتا أولا
+    DateAddedOldest: تاريخ الإضافة (الأقدم)
     AuthorAscending: الكاتب (A-Z)
     AuthorDescending: الكاتب (Z-A)
     VideoTitleAscending: العنوان (A-Z)
     VideoTitleDescending: العنوان (Z-A)
     Custom: مُخصّص
-    VideoDurationDescending: المدة (الاطول أولاً)
-    VideoDurationAscending: المدة (الأقصر أولاً)
-    PublishedNewest: أحدث منشور أولاً
-    PublishedOldest: أقدم منشور أولاً
+    VideoDurationDescending: المدة (الأطول)
+    VideoDurationAscending: المدة (الأقصر)
+    PublishedNewest: تاريخ النشر (الأحدث)
+    PublishedOldest: تاريخ النشر (الأقدم)
 Change Format:
   Change Media Formats: 'تغيير تنسيقات الفيديو'
   Use Dash Formats: 'استخدم تنسيقات DASH'
