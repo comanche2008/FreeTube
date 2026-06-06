@@ -32,6 +32,14 @@ Global:
   Shorts: Cortos
   Live: En vivo
   Sort By: 'Ordenar por'
+  Counts:
+    Video Count: 1 vídeo | {count} vídeos
+    Channel Count: 1 canle | {count} canles
+    Subscriber Count: 1 subscritor | {count} subscritores
+    View Count: 1 visualización | {count} visualizacións
+    Like Count: 1 gústame | {count} gústames
+    Comment Count: 1 comentario | {count} comentarios
+    Watching Count: 1 vendo | {count} vendo
 Version {versionNumber} is now available!  Click for more details: 'A versión {versionNumber} está dispoñible!  Fai clic para veres máis detalles'
 Download From Site: 'Descargar do sitio'
 
@@ -42,6 +50,8 @@ Search Filters:
   Search Filters: 'Buscar filtros'
   Prioritize:
     Most Relevant: 'Máis relevante'
+    Prioritize: Priorizar
+    Popularity: Popularidade
   Time:
     Time: 'Tempo'
     Any Time: 'Cando queiras'
@@ -67,6 +77,19 @@ Search Filters:
   Fetch more results: 'Buscar máis resultados'
 # Sidebar
   There are no more results for this search: Non hai máis resultados nesta busca
+  Features:
+    HD: HD
+    Subtitles: Subtítulos
+    Creative Commons: Creative Commons
+    3D: 3D
+    4K: 4K
+    360 Video: Vídeo 360
+    HDR: HDR
+    VR180: VR180
+    Features: Características
+    Live: En directo
+    Location: Localización
+  Clear Filters: Limpar filtros
 Subscriptions:
     # On Subscriptions Page
   Subscriptions: 'Subscricións'
@@ -76,16 +99,100 @@ Subscriptions:
   Error Channels: Canles con erros
   Disabled Automatic Fetching: Desactivaches a obtención automática de subscricións. Actualiza as subscricións para velos aquí.
   Empty Channels: As túas canles subscritas actualmente non teñen ningún vídeo.
+  Empty Posts: As túas canles subscritas non teñen publicacións actualmente.
+  Load More Posts: Cargar máis publicacións
+  Subscriptions Tabs: Lapelas de subscricións
+  All Subscription Tabs Hidden: Tódalas lapelas de subscrición están agochadas. Para ver contido aquí, amosa algunhas lapelas na sección "{subsection}" en "{settingsSection}".
 Trending:
   Trending: 'Tendencias'
   Gaming: Xogos
   Trending Tabs: Pestanas das tendencias
+  Sports: Deportes
 Most Popular: 'Máis populares'
 Playlists: 'Listaxes de reprodución'
 User Playlists:
   Your Playlists: 'As túas listaxes de reprodución'
   Empty Search Message: Non hai vídeos nesta lista de reprodución que coincidan coa túa busca
   Search bar placeholder: Atopar na lista de reprodución
+  Cancel: Cancelar
+  TotalTimePlaylist: 'Duración total: {duration}'
+  Sort By:
+    NameAscending: A - Z
+    NameDescending: Z - A
+    LatestCreatedFirst: Data de creación (máis recente)
+    EarliestCreatedFirst: Data de creación (máis antiga)
+    LatestUpdatedFirst: Data de actualización (máis recente)
+    EarliestUpdatedFirst: Data de actualización (máis antiga)
+    LatestPlayedFirst: Data de reprodución (máis recente)
+    EarliestPlayedFirst: Data de reprodución (máis antiga)
+  You have no playlists. Click on the create new playlist button to create a new one.: Non tes listas de reprodución. Fai clic no botón de crear nova lista para crear unha.
+  Playlists with Matching Videos: Listas de reprodución con vídeos coincidentes
+  This playlist currently has no videos.: Esta lista de reprodución non ten vídeos actualmente.
+  Create New Playlist: Crear nova lista de reprodución
+  Add to Playlist: Engadir á lista de reprodución
+  Add to Favorites: Engadir a {playlistName}
+  Remove from Favorites: Eliminar de {playlistName}
+  Move Video Up: Mover vídeo arriba
+  Move Video Down: Mover vídeo abaixo
+  Remove from Playlist: Eliminar da lista de reprodución
+  Playlist Name: Nome da lista de reprodución
+  Playlist Description: Descrición da lista de reprodución
+  Save Changes: Gardar trocos
+  Edit Playlist Info: Editar información da lista de reprodución
+  Copy Playlist: Copiar lista de reprodución
+  Remove Duplicate Videos: Eliminar vídeos duplicados
+  Remove Watched Videos: Eliminar vídeos vistos
+  Enable Quick Bookmark With This Playlist: Activar marcador rápido con esta lista de reprodución
+  Quick Bookmark Enabled: Marcador rápido activado
+  Export Playlist: Exportar esta lista de reprodución
+  Export list of URLs: Exportar lista de URL
+  The playlist has been successfully exported: A lista de reprodución exportouse correctamente
+  Are you sure you want to remove {playlistItemCount} duplicate videos from this playlist? This cannot be undone: Estás certo de que queres eliminar 1 vídeo duplicado desta lista de reprodución? Isto non se pode desfacer. | Estás certo de que queres eliminar {playlistItemCount} vídeos duplicados desta lista de reprodución? Isto non se pode desfacer.
+  Are you sure you want to remove {playlistItemCount} watched videos from this playlist? This cannot be undone: Estás certo de que queres eliminar 1 vídeo visto desta lista de reprodución? Isto non se pode desfacer. | Estás certo de que queres eliminar {playlistItemCount} vídeos vistos desta lista de reprodución? Isto non se pode desfacer.
+  Delete Playlist: Eliminar lista de reprodución
+  Cannot delete the quick bookmark target playlist.: Non se pode eliminar a lista de reprodución d destino do marcador rápido.
+  Are you sure you want to delete this playlist? This cannot be undone: Estás certo de que queres eliminar esta lista de reprodución? Isto non se pode desfacer.
+  SinglePlaylistView:
+    Search for Videos: Buscar vídeos
+    Toast:
+      This video cannot be moved up.: Este vídeo non se pode mover arriba.
+      This video cannot be moved down.: Este vídeo non se pode mover abaixo.
+      Video has been removed: O vídeo foi eliminado
+      Video has been removed. Click here to undo.: O vídeo foi eliminado. Fai clic aquí para desfacer.
+      There was a problem with removing this video: Houbo un problema ao eliminar este vídeo
+      This playlist is already being used for quick bookmark.: Esta lista de reprodución xa se está a usar como marcador rápido.
+      This playlist is now used for quick bookmark: Esta lista de reprodución agora úsase como marcador rápido
+      This playlist is now used for quick bookmark instead of {oldPlaylistName}. Click here to undo: Esta lista de reprodución agora úsase como marcador rápido en vez de {oldPlaylistName}. Fai clic aquí para desfacer
+      Reverted to use {oldPlaylistName} for quick bookmark: Volveuse usar {oldPlaylistName} como marcador rápido
+      Some videos in the playlist are not loaded yet. Click here to copy anyway.: Algúns vídeos da lista de reprodución aínda non se cargaron. Fai clic aquí para copiar igualmente.
+      Playlist name cannot be empty. Please input a name.: O nome da lista de reprodución non pode estar baleiro. Insire un nome.
+      Playlist has been updated.: A lista de reprodución foi actualizada.
+      There was an issue with updating this playlist.: Houbo un problema ao actualizar esta lista de reprodución.
+      "{videoCount} video(s) have been removed": Eliminouse 1 vídeo | Elimináronse {videoCount} vídeos
+      There were no videos to remove.: Non había vídeos que eliminar.
+      This playlist is protected and cannot be removed.: Esta lista de reprodución está protexida e non se pode eliminar.
+      Playlist {playlistName} has been deleted.: A lista de reprodución {playlistName} foi eliminada.
+      This playlist does not exist: Esta lista de reprodución non existe
+      This playlist has a video with a duration error: Esta lista de reprodución contén polo menos un vídeo sen duración, ordenarase coma se a súa duración fose cero.
+  AddVideoPrompt:
+    Select a playlist to add your N videos to: Selecciona unha lista de reprodución á que engadir o teu vídeo | Selecciona unha lista de reprodución á que engadir os teus {videoCount} vídeos
+    N playlists selected: '{playlistCount} seleccionadas'
+    Search in Playlists: Buscar en listas de reprodución
+    Allow Adding Duplicate Video(s): Permitir engadir vídeo(s) duplicado(s)
+    Save: Gardar
+    Added {count} Times: Xa engadido | Engadido {count} veces
+    "{videoCount}/{totalVideoCount} Videos Will Be Added": '{videoCount}/{totalVideoCount} vídeos serán engadidos'
+    "{videoCount}/{totalVideoCount} Videos Already Added": '{videoCount}/{totalVideoCount} vídeos xa engadidos'
+    Toast:
+      You haven't selected any playlist yet.: Aínda non seleccionaches ningunha lista de reprodución.
+      "Video(s) added to {playlistCount} playlists": Vídeo(s) engadido(s) a 1 lista de reprodución | Vídeo(s) engadido(s) a {playlistCount} listas de reprodución
+  CreatePlaylistPrompt:
+    New Playlist Name: Novo nome da lista de reprodución
+    Create: Crear
+    Toast:
+      There is already a playlist with this name. Please pick a different name.: Xa existe unha lista de reprodución con este nome. Escolle outro distinto.
+      Playlist {playlistName} has been successfully created.: A lista de reprodución {playlistName} creouse correctamente.
+      There was an issue with creating the playlist.: Houbo un problema ao crear a lista de reprodución.
 History:
   # On History Page
   History: 'Histórico'
@@ -93,6 +200,9 @@ History:
   Your history list is currently empty.: 'A túa listaxe histórica está baleira.'
   Empty Search Message: Non hai vídeos no teu historial que coincidan coa túa busca
   Search bar placeholder: Atopar na historia
+  Case Sensitive Search: Busca sensible a maiúsculas e minúsculas
+  DateOldestHistory: Data de visualización (máis antiga)
+  DateNewestHistory: Data de visualización (máis recente)
 Settings:
   # On Settings Page
   Settings: 'Axustes'
@@ -118,6 +228,8 @@ Settings:
       Beginning: 'Principio'
       Middle: 'Metade'
       End: 'Final'
+      Hidden: Agochado
+      Blur: Desenfoque
     Region for Trending: 'Rexión para as tendencias'
         #! List countries
     View all Invidious instance information: Ver todala información da instancia de Invidious
@@ -133,6 +245,11 @@ Settings:
       Ask Before Opening Link: Pregunta antes de abrila ligazón
       External Link Handling: Manexo das ligazóns externas
       Open Link: Abrir ligazón
+    Open Deep Links In New Window: Abrir as URL pasadas a FreeTube nunha nova xanela
+    Minimize to system tray: Minimizar á bandexa do sistema
+    Auto Load Next Page:
+      Label: Cargar automaticamente a seguinte páxina
+      Tooltip: Cargar páxinas adicionais e comentarios automaticamente.
   Theme Settings:
     Theme Settings: 'Axustes de tema'
     Match Top Bar with Main Color: 'Combinar cor principal coa barra superior'
@@ -147,6 +264,21 @@ Settings:
       Dracula: 'Drácula'
       System Default: Predeterminado polo sistema
       Catppuccin Mocha: Moca Catppuccin
+      Catppuccin Frappe: Catppuccin Frappe
+      Catppuccin Latte: Catppuccin Latte
+      Pastel Pink: Rosa pastel
+      Hot Pink: Rosa intenso
+      Nordic: Nórdico
+      Gruvbox Dark: Gruvbox escuro
+      Gruvbox Light: Gruvbox claro
+      Solarized Dark: Solarized escuro
+      Solarized Light: Solarized claro
+      Everforest Dark Hard: Everforest escuro duro
+      Everforest Dark Medium: Everforest escuro medio
+      Everforest Dark Low: Everforest escuro suave
+      Everforest Light Hard: Everforest claro duro
+      Everforest Light Medium: Everforest claro medio
+      Everforest Light Low: Everforest claro suave
     Main Color Theme:
       Main Color Theme: 'Cor principal'
       Red: 'Vermello'
@@ -186,6 +318,54 @@ Settings:
       Catppuccin Mocha Flamingo: Catppuccin Mocha Flamenco
       Catppuccin Mocha Mauve: Catppuccin Mocha Malva
       Catppuccin Mocha Maroon: Catppuccin Mocha Granate
+      Catppuccin Frappe Rosewater: Catppuccin Frappe Rosewater
+      Catppuccin Frappe Flamingo: Catppuccin Frappe Flamingo
+      Catppuccin Frappe Pink: Catppuccin Frappe Rosa
+      Catppuccin Frappe Mauve: Catppuccin Frappe Malva
+      Catppuccin Frappe Red: Catppuccin Frappe Vermello
+      Catppuccin Frappe Maroon: Catppuccin Frappe Granate
+      Catppuccin Frappe Peach: Catppuccin Frappe Pexego
+      Catppuccin Frappe Yellow: Catppuccin Frappe Amarelo
+      Catppuccin Frappe Green: Catppuccin Frappe Verde
+      Catppuccin Frappe Teal: Catppuccin Frappe Verde azulado
+      Catppuccin Frappe Sky: Catppuccin Frappe Ceo
+      Catppuccin Frappe Sapphire: Catppuccin Frappe Zafiro
+      Catppuccin Frappe Blue: Catppuccin Frappe Azul
+      Catppuccin Frappe Lavender: Catppuccin Frappe Lavanda
+      Catppuccin Latte Mauve: Catppuccin Latte Malva
+      Catppuccin Latte Red: Catppuccin Latte Vermello
+      Gruvbox Dark Green: Gruvbox escuro verde
+      Gruvbox Dark Yellow: Gruvbox escuro amarelo
+      Gruvbox Dark Blue: Gruvbox escuro azul
+      Gruvbox Dark Purple: Gruvbox escuro púrpura
+      Gruvbox Dark Aqua: Gruvbox escuro augamarina
+      Gruvbox Dark Orange: Gruvbox escuro laranxa
+      Gruvbox Light Red: Gruvbox claro vermello
+      Gruvbox Light Blue: Gruvbox claro azul
+      Gruvbox Light Purple: Gruvbox claro púrpura
+      Gruvbox Light Orange: Gruvbox claro laranxa
+      Solarized Yellow: Solarized amarelo
+      Solarized Orange: Solarized laranxa
+      Solarized Red: Solarized vermello
+      Solarized Magenta: Solarized maxenta
+      Solarized Violet: Solarized violeta
+      Solarized Blue: Solarized azul
+      Solarized Cyan: Solarized cian
+      Solarized Green: Solarized verde
+      Everforest Dark Red: Everforest escuro vermello
+      Everforest Dark Orange: Everforest escuro laranxa
+      Everforest Dark Yellow: Everforest escuro amarelo
+      Everforest Dark Green: Everforest escuro verde
+      Everforest Dark Aqua: Everforest escuro augamarina
+      Everforest Dark Blue: Everforest escuro azul
+      Everforest Dark Purple: Everforest escuro púrpura
+      Everforest Light Red: Everforest claro vermello
+      Everforest Light Orange: Everforest claro laranxa
+      Everforest Light Yellow: Everforest claro amarelo
+      Everforest Light Green: Everforest claro verde
+      Everforest Light Aqua: Everforest claro augamarina
+      Everforest Light Blue: Everforest claro azul
+      Everforest Light Purple: Everforest claro púrpura
     Secondary Color Theme: 'Cor secundaria'
         #* Main Color Theme
     Hide Side Bar Labels: Ocultalas etiquetas da barra lateral
@@ -229,16 +409,26 @@ Settings:
       Format Label: Formato da captura da pantalla
       Modes:
         Ask Path: Pregunta onde se garda o cartafol
+        Save To Folder: Gardar en cartafol
+        Clipboard: Copiar ao portapapeis
       File Name Tooltip: Podes usalas variables a continuación. %Y 4 díxitos do ano. %M Mes 2 díxitos. %D Día 2 díxitos. %H Hora 2 díxitos. %N minutos 2 díxitos. %S Segundo 2 díxitos. %T Milisegundos 3 díxitos. %s segundo de vídeo. %t Video Milisegundos 3 díxitos. ID de vídeo %i.
       Folder Button: Seleccione un cartafol
       File Name Label: Patrón do nome do fixeiro
       Enable: Activalas capturas da pantalla
+      Mode: Modo captura de pantalla
     Video Playback Rate Interval: Intervalo da taxa da reprodución do vídeo
     Fast-Forward / Rewind Interval: Intervalo do avance/retroceso rápido
     Scroll Playback Rate Over Video Player: Desprácese a taxa da reprodución sobre a reproducción do vídeo
     Max Video Playback Rate: Velocidade máxima da reprodución do vídeo
     Enter Fullscreen on Display Rotate: Poñase a pantalla enteira o xirala pantalla
     Skip by Scrolling Over Video Player: Saltar desprazándose polo reprodutor de vídeo
+    Default Viewing Mode:
+      Full Screen: Pantalla Completa
+      Theater: Teatro
+      Default Viewing Mode: Modo de visualización predeterminado
+      Picture in Picture: Imaxe en imaxe
+      External Player: Reprodutor externo ({externalPlayerName})
+    Autoplay Interruption Timer: Temporizador de interrupción de reprodución automática
   Privacy Settings:
     Privacy Settings: 'Axustes de privacidade'
     Remember History: 'Lembrar histórico'
@@ -252,10 +442,26 @@ Settings:
     Remove All Subscriptions / Profiles: 'Limpar tódalas subscricións / perfís'
     Are you sure you want to remove all subscriptions and profiles?  This cannot be undone.: 'Estás seguro de querer limpar tódalas subscricións e perfís? Esta acción é irreversible.'
     Save Watched Videos With Last Viewed Playlist: Gardalos vídeos vistos coa última lista de reprodución vista
+    Watched Progress Saving Mode:
+      Modes:
+        Auto: Automático
+        Semi-auto: Semi-automático
+        Never: Xamais
+      Tooltip: Auto = Gardar en cada saída da páxina do vídeo, ao rematar o vídeo e cando se produce un erro (p.ex. limitación de taxa ou sesión expirada). Semi-auto = Igual que Auto excepto na saída da páxina do vídeo e permite gardar o progreso manualmente mediante un botón chamado Gardar progreso visto, situado debaixo do reprodutor.
+    Remember Search History: Lembrar historial de busca
+    Clear Search History and Cache: Limpar historial de busca e caché
+    Are you sure you want to clear out your search history and cache?: Estás certo de que queres limpar o historial de busca e a caché?
+    Search history and cache have been cleared: O historial de busca e a caché foron limpos
+    Remove All Playlists: Eliminar tódalas listas de reprodución
+    All playlists have been removed: Elimináronse tódalas listas de reprodución
+    Are you sure you want to remove all your playlists?: Estás certo de que queres eliminar tódalas túas listas de reprodución?
   Subscription Settings:
     Subscription Settings: 'Axustes de subscricións'
     Fetch Feeds from RSS: 'Obter subscricións a través de RSS'
     Fetch Automatically: Obter feed automaticamente
+    To: A
+    'Limit the number of videos displayed for each channel': Limitar o número de vídeos mostrados para cada canle
+    Confirm Before Unsubscribing: Confirmar antes de cancelar a subscrición
   Distraction Free Settings:
     Distraction Free Settings: 'Sen distraccións'
     Hide Video Views: 'Agochar as visualizacións nos vídeos'
@@ -278,6 +484,30 @@ Settings:
     Hide Channels: Ocultalos vídeos das canles
     Hide Channels Placeholder: Nome ou ID da canle
     Display Titles Without Excessive Capitalisation: Amosalos títulos sen usar moitas maiúsculas
+    Sections:
+      Side Bar: Barra lateral
+      Subscriptions Page: Páxina de subscricións
+      Channel Page: Páxina da canle
+      Watch Page: Ver a páxina
+      General: Xeral
+    Hide Profile Pictures in Comments: Agochar imaxes de perfil nos comentarios
+    Hide Channels Disabled Message: Algunhas canles foron bloqueadas usando ID e non se procesaron. A función está bloqueada mentres eses ID se actualizan
+    Hide Channels Invalid: O ID da canle proporcionado non é válido
+    Hide Channels API Error: Erro ao recuperar o usuario co ID proporcionado. Comproba se o ID é correcto.
+    Hide Channels Already Exists: O ID da canle xa existe
+    Hide Featured Channels: Agochar canles destacadas
+    Hide Channel Playlists: Agochar a lapela "Listas de reprodución" da canle
+    Hide Channel Posts: Agochar a lapela "Publicacións" da canle
+    Hide Channel Home: Agochar a lapela "Inicio" da canle
+    Hide Channel Shorts: Agochar a lapela "Curtos" da canle
+    Hide Channel Podcasts: Agochar a lapela "Podcast" da canle
+    Hide Channel Releases: Agochar a lapela "Lanzamentos" da canle
+    Hide Channel Courses: Agochar a lapela "Cursos" da canle
+    Hide Videos, Playlists and Channels Containing Text: Agochar vídeos, listas de reprodución e canles que conteñan texto
+    Hide Videos, Playlists and Channels Containing Text Placeholder: Palabra, fragmento de palabra ou frase
+    Hide Subscriptions Videos: Agochar as subscricións dos vídeos
+    Hide Subscriptions Shorts: Agochar subscricións dos curtos
+    Hide Subscriptions Live: Agochar subscricións dos directos
   Data Settings:
     Data Settings: 'Axustes dos datos'
     Select Export Type: 'Escoller tipo de exportación'
@@ -346,6 +576,7 @@ Settings:
     Players:
       None:
         Name: Ningún
+    Ignore Default Arguments: Ignorar argumentos predeterminados
   Parental Control Settings:
     Parental Control Settings: Configuración do control parental
     Hide Unsubscribe Button: Ocultalo botón para cancelala subscrición
@@ -363,6 +594,8 @@ Settings:
   Password Dialog:
     Password: Contrasinal
     Enter Password To Unlock: Introduce o contrasinal para desbloqueala configuración
+  Sort Settings Sections (A-Z): Ordenar seccións de configuración (A - Z)
+  Return to Settings Menu: Voltar ao menú de configuración
 About:
   #On About page
   About: 'Sobre'
@@ -641,6 +874,7 @@ Channels:
   Unsubscribe Prompt: Estás seguro de que queres cancelar a subscrición a "{channelName}"?
 Search Bar:
   Clear Input: Borrar entrada
+  Remove: Eliminar
 Are you sure you want to open this link?: Estás seguro de que queres abrir esta ligazón?
 Preferences: Preferencias
 External link opening has been disabled in the general settings: A apertura das ligazóns externas desactivouse na configuración xeral
@@ -664,3 +898,17 @@ Search Listing:
   Label:
     8K: 8K
     4K: 4K
+    360 Video: 360°
+    3D: 3D
+    VR180: VR180
+    Subtitles: Subtítulos
+    New: Novo
+    Closed Captions: Subtítulos pechados
+Compact side navigation: Navegación lateral compacta
+Expand side navigation: Expandir navegación lateral
+Right-click or hold to see history: Fai clic dereito ou mantén premido para ver o historial
+Close Banner: Pechar banner
+Search character limit: A consulta de busca supera o límite de {searchCharacterLimit} caracteres
+Feed:
+  Feed Last Updated: 'O feed de {feedName} actualizouse por derradeira vez: {date}'
+  Refresh Feed: Actualizar {subscriptionName}
