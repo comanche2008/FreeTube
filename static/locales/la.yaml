@@ -17,19 +17,21 @@ Actual size: 'Vera magnitudine'
 Zoom in: 'Visum propius'
 Zoom out: 'Visi repostus'
 Toggle fullscreen: 'Totus mutatur ostentationem'
-Window: 'fenestram'
-Minimize: 'Redigo'
+Window: 'Fenestram'
+Minimize: 'Redige'
 Close: 'Claude'
 Back: 'Redeo'
 Forward: 'Promoveo'
 
-Version {versionNumber} is now available!  Click for more details: 'Editio {versionNumber} nunc praesto! Tactus pro magis singula res'
-Download From Site: 'Adepto ex situ'
+Version {versionNumber} is now available!  Click for more details: 'Editio {versionNumber} nunc praesto!  Tange pro magis singula res'
+Download From Site: 'Adipiscere ex situ'
 
 Global:
   Sort By: 'Disponere Per'
 
 # Search Bar
+  Videos: Visiones
+  Shorts: Visiones breves
 Search / Go to URL: 'Requiro / Adeo URL'
   # In Filter Button
 Search Filters:
@@ -139,7 +141,7 @@ Channel:
 Video: {}
 No: 'nullum'
 More: plus
-Open New Window: aperiere fenestram novum
+Open New Window: Aperi fenestram novam
 KeyboardShortcutPrompt:
   Toggle Developer Tools: Mutatio Constitutor Instrumenta
   Zoom Out: Visi repostus
@@ -147,3 +149,10 @@ KeyboardShortcutPrompt:
   Fullscreen: Totus mutatur ostentationem
 Profile:
   Select All: Omnia selige
+New Window: Nova Fenestra
+Preferences: Praepositionis
+Compact side navigation: Redige tabulam lateralem
+Expand side navigation: Expande tabulam lateralem
+Go to page: Vade {page}
+Close Banner: Claude tabulam
+Are you sure you want to open this link?: Esne tibi certum aperire illum nexum?
