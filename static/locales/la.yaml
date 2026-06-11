@@ -27,11 +27,15 @@ Version {versionNumber} is now available!  Click for more details: 'Editio {vers
 Download From Site: 'Adipiscere ex situ'
 
 Global:
-  Sort By: 'Disponere Per'
+  Sort By: 'Dispone Per'
 
 # Search Bar
   Videos: Visiones
   Shorts: Visiones breves
+  Posts: Libelli
+  Counts:
+    Video Count: 1 visio | {count} visiones
+    Channel Count: 1 canalis | {count} canales
 Search / Go to URL: 'Requiro / Adeo URL'
   # In Filter Button
 Search Filters:
