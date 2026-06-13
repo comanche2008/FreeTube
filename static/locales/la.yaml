@@ -39,6 +39,8 @@ Global:
     Subscriber Count: 1 subscriptor | {count} subscriptores
     View Count: 1 spectator | {count} spectatores
     Like Count: 1 amator | {count} amatores
+    Comment Count: 1 adnotatio | {count} adnotationes
+    Watching Count: 1 spectat | {count} spectant
 Search / Go to URL: 'Requiro / Adeo URL'
   # In Filter Button
 Search Filters:
@@ -191,6 +193,7 @@ Search Listing:
     360 Video: 360°
     New: Novum
     3D: 3D
+    Subtitles: Subtituli
 Channels:
   Channels: Canales
   Title: Index canalium
