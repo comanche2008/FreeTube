@@ -602,6 +602,7 @@ Settings:
     Hide Search Bar: Keresősáv elrejtése
     Hide Unsubscribe Button: Leiratkozás gomb elrejtése
     Hide Uploader on Watch page: Feltöltő nevének elrejtése a megtekintési lapról
+    Disable Channel Links: Csatornahivatkozások letiltása
   Experimental Settings:
     Replace HTTP Cache: HTTP-gyorsítótár cseréje
     Experimental Settings: Kísérleti
