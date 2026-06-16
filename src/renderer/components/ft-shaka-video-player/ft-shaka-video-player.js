@@ -2315,6 +2315,11 @@ export default defineComponent({
         return
       }
 
+      // allow focusing on search bar without affecting the playback
+      if ((process.platform === 'darwin' && event.metaKey) && event.key.toLowerCase() === 'l') {
+        return
+      }
+
       const video_ = video.value
 
       // Skip to next video in playlist or recommended
