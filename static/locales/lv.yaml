@@ -39,15 +39,15 @@ Global:
   Posts: 'Ziņas'
   Sort By: Kārto pēc
   Counts:
-    Video Count: '1 video | {count} video'
-    Channel Count: '1 kanāls | {count} kanāli'
-    Subscriber Count: '1 abonents | {count} abonenti'
-    View Count: '1 skatījums | {count} skatījumi'
-    Watching Count: '1 skatās | {count} skatās'
+    Video Count: '0 video | {count} video | {count} video'
+    Channel Count: '0 kanālu | {count} kanāls | {count} kanāli'
+    Subscriber Count: '0 abonentu | {count} abonents | {count} abonenti'
+    View Count: '0 skatījumu | {count} skatījums | {count} skatījumi'
+    Watching Count: 'neviens neskatās | {count} skatās | {count} skatās'
 
 # Search Bar
-    Like Count: 1 patikšana | {count} patikšanas
-    Comment Count: 1 komentārs | {count} komentāri
+    Like Count: 0 patikšanu | {count} patikšana | {count} patikšanas
+    Comment Count: nav komentāru | {count} komentārs | {count} komentāri
 Search / Go to URL: 'Meklē / Dodies uz URL'
 Search Bar:
   Clear Input: 'Tīrīt ievadi'
@@ -708,6 +708,12 @@ Video:
   Player:
     Stats:
       Stats: Statistika
+      Video ID: 'Video identifikators (ID): {videoId}'
+    Audio Tracks: Audio celiņi
+    Autoplay is off: Automātiskā atskaņošana izslēgta
+    Autoplay is on: Automātiskā atskaņošana ieslēgta
+    Show Stats: Rādīt statistiku
+    Hide Stats: Paslēpt statistiku
   Unlisted: Nav iekļauts sarakstos
 Playlist:
   #& About
@@ -898,3 +904,5 @@ Description:
 Yes, Delete: Jā, dzēst
 Yes, Restart: Jā, palaist pa jaunu
 Yes, Open Link: Jā, atvērt saiti
+Expand side navigation: Izvērst sānjoslu
+Compact side navigation: Sakļaut sānjoslu
